@@ -8,7 +8,6 @@
 </head>
 <body class="min-h-screen bg-white text-slate-900 font-sans">
     <div class="min-h-screen flex flex-col bg-white">
-        <!-- Header / Navbar -->
         <header class="w-full max-w-[1600px] mx-auto flex items-center justify-between px-6 py-6">
                 <a href="#" class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-full flex items-center justify-center text-white font-semibold" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">YW</div>
@@ -25,16 +24,13 @@
         <section id="about" class="w-full section-gradient-light relative">
             <div class="max-w-[1400px] mx-auto px-6 py-16 md:py-24">
                 <div class="flex flex-col md:flex-row items-center gap-8">
-                    <!-- Profile -->
                     <div class="flex-shrink-0 relative">
                         <div class="w-36 h-36 rounded-full p-1 violet-shadow-strong" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">
                             <div class="w-full h-full rounded-full bg-white overflow-hidden flex items-center justify-center border-violet-glow">
-                                <!-- Placeholder for profile image -->
                                 <img src="/images/profile.jpg" alt="Yohanes Wenanta" class="w-full h-full object-cover" onerror="this.style.display='none'">
                                 <span class="text-2xl font-semibold text-violet-600">Y</span>
                             </div>
                         </div>
-                        <!-- Decorative elements -->
                         <div class="absolute -z-10 w-full h-full top-0 left-0 transform -translate-x-1/4 -translate-y-1/4">
                             <div class="w-full h-full rounded-full opacity-20" style="background: radial-gradient(circle at center, rgba(139, 92, 246, 0.3), transparent 70%);"></div>
                         </div>
@@ -56,16 +52,14 @@
             </div>
         </section>
 
-        <!-- Skills & Expertise (full-width band) -->
+
         <section id="skills" class="w-full bg-gradient-to-b from-slate-50 to-white border-b border-slate-100 relative overflow-hidden">
-            <!-- Decorative Background Elements -->
             <div class="absolute inset-0">
                 <div class="pattern-dots opacity-10"></div>
                 <div class="absolute inset-0 bg-gradient-to-r from-violet-100/20 via-transparent to-violet-100/20"></div>
             </div>
             
             <div class="max-w-[1400px] mx-auto px-6 py-20 relative">
-                <!-- Section Header -->
                 <div class="text-center mb-16">
                     <h2 class="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-violet-600 to-violet-400 bg-clip-text text-transparent">Skills & Expertise</h2>
                     <div class="w-20 h-1 mx-auto rounded-full bg-gradient-to-r from-violet-500 to-violet-300"></div>
@@ -73,7 +67,6 @@
 
                 <!-- Skills Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Frontend Development -->
                     <div class="group relative flex">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
                         <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
@@ -95,7 +88,7 @@
                         </div>
                     </div>
 
-                    <!-- Backend Development -->
+
                     <div class="group relative flex">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
                         <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
@@ -117,7 +110,7 @@
                         </div>
                     </div>
 
-                    <!-- Database & Tools -->
+
                     <div class="group relative flex">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
                         <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
@@ -142,9 +135,8 @@
             </div>
         </section>
 
-        <!-- Professional Experience -->
+
         <section id="experience" class="w-full bg-white relative py-20">
-            <!-- Decorative Elements -->
             <div class="absolute inset-0 opacity-5">
                 <div class="absolute top-0 left-0 w-64 h-64 bg-violet-600 rounded-full mix-blend-multiply blur-3xl"></div>
                 <div class="absolute bottom-0 right-0 w-64 h-64 bg-violet-400 rounded-full mix-blend-multiply blur-3xl"></div>
@@ -157,30 +149,22 @@
                     <div class="w-24 h-1 mx-auto bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
                 </div>
 
-                <!-- Timeline Container -->
-                <div class="relative">
-                    <!-- Timeline Line -->
+           
+                <div class="relative"> 
                     <div class="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-violet-500/20 to-violet-300/20"></div>
 
-                    <!-- Experience Items -->
                     <div class="space-y-16">
-                        <!-- ACME Corp -->
                         <div class="relative group">
-                            <!-- Timeline Dot -->
                             <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
                             
-                            <!-- Content Card -->
                             <div class="ml-16 md:ml-0 md:flex md:items-center even:md:flex-row-reverse group">
-                                <!-- Date Badge - Desktop -->
                                 <div class="hidden md:block md:w-1/2 px-8">
                                     <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
                                         2022 — Present
                                     </div>
                                 </div>
 
-                                <!-- Experience Card -->
                                 <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
-                                    <!-- Company Logo & Info -->
                                     <div class="flex items-center gap-4 mb-4">
                                         <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
                                             <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
@@ -190,14 +174,12 @@
                                         <div>
                                             <h3 class="text-xl font-bold text-slate-900">ACME Corp</h3>
                                             <p class="text-violet-600 font-medium">Senior Developer</p>
-                                            <!-- Date Badge - Mobile -->
                                             <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
                                                 2022 — Present
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Responsibilities -->
                                     <div class="space-y-4">
                                         <p class="text-slate-600">Led a small team to deliver SaaS features, improved CI/CD pipelines, and optimized backend performance for customer-facing services.</p>
                                         <ul class="space-y-2">
@@ -214,7 +196,7 @@
                                                 Developed scalable APIs
                                             </li>
                                         </ul>
-                                        <!-- Technologies -->
+                            
                                         <div class="flex flex-wrap gap-2 mt-4">
                                             <span class="experience-tag">Laravel</span>
                                             <span class="experience-tag">Docker</span>
@@ -225,23 +207,19 @@
                             </div>
                         </div>
 
-                        <!-- Startup XYZ -->
                         <div class="relative group">
-                            <!-- Timeline Dot -->
                             <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
                             
-                            <!-- Content Card -->
+
                             <div class="ml-16 md:ml-0 md:flex md:items-center">
-                                <!-- Date Badge - Desktop -->
                                 <div class="hidden md:block md:w-1/2 px-8 text-right">
                                     <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
                                         2019 — 2021
                                     </div>
                                 </div>
 
-                                <!-- Experience Card -->
+                             
                                 <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
-                                    <!-- Company Logo & Info -->
                                     <div class="flex items-center gap-4 mb-4">
                                         <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
                                             <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
@@ -251,14 +229,13 @@
                                         <div>
                                             <h3 class="text-xl font-bold text-slate-900">Startup XYZ</h3>
                                             <p class="text-violet-600 font-medium">Junior Developer</p>
-                                            <!-- Date Badge - Mobile -->
                                             <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
                                                 2019 — 2021
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Responsibilities -->
+
                                     <div class="space-y-4">
                                         <p class="text-slate-600">Worked across the stack building features and writing tests, collaborating closely with product and design teams.</p>
                                         <ul class="space-y-2">
@@ -275,7 +252,7 @@
                                                 Implemented monitoring solutions
                                             </li>
                                         </ul>
-                                        <!-- Technologies -->
+
                                         <div class="flex flex-wrap gap-2 mt-4">
                                             <span class="experience-tag">PHP</span>
                                             <span class="experience-tag">MySQL</span>
@@ -295,13 +272,11 @@
 
         <!-- Projects Section -->
         <section id="projects" class="w-full bg-gradient-to-b from-slate-50 to-white relative py-20">
-            <!-- Decorative Background -->
             <div class="absolute inset-0">
                 <div class="absolute top-0 right-0 w-96 h-96 bg-violet-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
                 <div class="absolute bottom-0 left-0 w-96 h-96 bg-violet-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
             </div>
             
-            <!-- Content -->
             <div class="relative max-w-7xl mx-auto px-6">
                 <div class="mb-12">
                     <div class="space-y-2">
@@ -312,7 +287,6 @@
 
                 <!-- Project Grid -->
                 <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                    <!-- Project Card 1: E-Commerce Dashboard -->
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
@@ -333,7 +307,7 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 2: Task Management -->
+
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
@@ -354,7 +328,7 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 3: Weather App -->
+             
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
@@ -375,7 +349,7 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 4: Portfolio Website -->
+      
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
@@ -401,20 +375,17 @@
         <div class="absolute bottom-0 left-0 w-96 h-96 bg-violet-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
 
         </section>
-            <!-- Education -->
             <section id="education" class="w-full bg-slate-50 border-t border-b border-slate-100 py-20">
                 <div class="max-w-4xl mx-auto px-6">
-                    <!-- Section Header -->
                     <div class="text-center mb-12">
                         <h2 class="text-3xl font-bold text-slate-900">Education</h2>
                         <div class="w-24 h-1 mx-auto mt-2 bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
                     </div>
 
-                    <!-- Education Card -->
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
                         <div class="relative bg-white p-8 rounded-xl shadow-lg flex items-center gap-8">
-                            <!-- Icon -->
+
                             <div class="flex-shrink-0">
                                 <div class="w-16 h-16 rounded-full bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg">
                                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -424,7 +395,7 @@
                                     </svg>
                                 </div>
                             </div>
-                            <!-- Details -->
+                       
                             <div>
                                 <p class="text-sm text-violet-600 font-medium">2020 — 2024</p>
                                 <h3 class="text-xl font-bold text-slate-900 mt-1">Binus University</h3>
@@ -435,7 +406,6 @@
                 </div>
             </section>
 
-            <!-- Footer / Contact -->
             <footer class="pt-6 border-t border-slate-100 text-center text-sm text-slate-500">
                 <p class="mb-3">Interested in working together? <a href="mailto:yohanes.wenanta@binus.ac.id" class="text-violet-500 hover:underline">Let's connect</a></p>
                 <p>© {{ date('M Y') }} Yohanes Wenanta</p>
