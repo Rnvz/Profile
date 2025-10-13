@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yohanes Wenanta — Portfolio</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body class="min-h-screen bg-white text-slate-900 font-sans">
+    <div class="min-h-screen flex flex-col bg-white">
+        <!-- Header / Navbar -->
+        <header class="w-full max-w-[1600px] mx-auto flex items-center justify-between px-6 py-6">
+                <a href="#" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-full flex items-center justify-center text-white font-semibold" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">YW</div>
+                    <span class="text-lg font-semibold">Yohanes Wenanta</span>
+                </a>
+                <nav class="hidden md:flex items-center gap-4 text-sm">
+                    <a href="#about" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">About</a>
+                    <a href="#skills" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Skills</a>
+                    <a href="#experience" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Experience</a>
+                    <a href="#education" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Education</a>
+                </nav>
+            </header>
+        <!-- HERO (full-width band) -->
+        <section id="about" class="w-full section-gradient-light relative">
+            <div class="max-w-[1400px] mx-auto px-6 py-16 md:py-24">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <!-- Profile -->
+                    <div class="flex-shrink-0 relative">
+                        <div class="w-36 h-36 rounded-full p-1 violet-shadow-strong" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">
+                            <div class="w-full h-full rounded-full bg-white overflow-hidden flex items-center justify-center border-violet-glow">
+                                <!-- Placeholder for profile image -->
+                                <img src="/images/profile.jpg" alt="Yohanes Wenanta" class="w-full h-full object-cover" onerror="this.style.display='none'">
+                                <span class="text-2xl font-semibold text-violet-600">Y</span>
+                            </div>
+                        </div>
+                        <!-- Decorative elements -->
+                        <div class="absolute -z-10 w-full h-full top-0 left-0 transform -translate-x-1/4 -translate-y-1/4">
+                            <div class="w-full h-full rounded-full opacity-20" style="background: radial-gradient(circle at center, rgba(139, 92, 246, 0.3), transparent 70%);"></div>
+                        </div>
+                    </div>
+
+                    <div class="flex-1 text-center md:text-left">
+                        <div class="inline-block">
+                            <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-500">
+                                Hi, I'm Yohanes — Software Developer
+                            </h1>
+                        </div>
+                        <p class="text-slate-600 mb-6 max-w-2xl">Information Technology student focused on building clean, accessible, and maintainable web applications. I enjoy solving problems using modern web technologies and collaborating in cross-functional teams.</p>
+                        <div class="flex items-center justify-center md:justify-start gap-3 glass-violet p-4 rounded-xl">
+                            <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg accent-violet hover:opacity-95 text-white text-sm font-medium shadow-lg transition-opacity">Let's Connect</a>
+                            <a href="#projects" class="text-sm text-slate-500 dark:text-slate-400 hover:underline">See Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Expertise (full-width band) -->
+        <section id="skills" class="w-full bg-gradient-to-b from-slate-50 to-white border-b border-slate-100 relative overflow-hidden">
+            <!-- Decorative Background Elements -->
+            <div class="absolute inset-0">
+                <div class="pattern-dots opacity-10"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-violet-100/20 via-transparent to-violet-100/20"></div>
+            </div>
+            
+            <div class="max-w-[1400px] mx-auto px-6 py-20 relative">
+                <!-- Section Header -->
+                <div class="text-center mb-16">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-violet-600 to-violet-400 bg-clip-text text-transparent">Skills & Expertise</h2>
+                    <div class="w-20 h-1 mx-auto rounded-full bg-gradient-to-r from-violet-500 to-violet-300"></div>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Frontend Development -->
+                    <div class="group relative flex">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
+                        <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg flex-shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Frontend Development</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 mb-6 flex-grow">Crafting responsive and accessible user interfaces with modern web technologies.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">Tailwind</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Development -->
+                    <div class="group relative flex">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
+                        <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg flex-shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Backend Development</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 mb-6 flex-grow">Building robust APIs and scalable server-side applications.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">Laravel</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">REST</span>
+                                <span class="skill-tag">Testing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Database & Tools -->
+                    <div class="group relative flex">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
+                        <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg flex-shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Database & Tools</h3>
+                            </div>
+                            <p class="text-sm text-slate-600 mb-6 flex-grow">Managing data and streamlining development workflows.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">MySQL/SQLite</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Vite</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience -->
+        <section id="experience" class="w-full bg-white relative py-20">
+            <!-- Decorative Elements -->
+            <div class="absolute inset-0 opacity-5">
+                <div class="absolute top-0 left-0 w-64 h-64 bg-violet-600 rounded-full mix-blend-multiply blur-3xl"></div>
+                <div class="absolute bottom-0 right-0 w-64 h-64 bg-violet-400 rounded-full mix-blend-multiply blur-3xl"></div>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-6 relative">
+                <!-- Section Header -->
+                <div class="max-w-3xl mx-auto text-center mb-16">
+                    <h2 class="text-3xl font-bold mb-4">Professional Experience</h2>
+                    <div class="w-24 h-1 mx-auto bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
+                </div>
+
+                <!-- Timeline Container -->
+                <div class="relative">
+                    <!-- Timeline Line -->
+                    <div class="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-violet-500/20 to-violet-300/20"></div>
+
+                    <!-- Experience Items -->
+                    <div class="space-y-16">
+                        <!-- ACME Corp -->
+                        <div class="relative group">
+                            <!-- Timeline Dot -->
+                            <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
+                            
+                            <!-- Content Card -->
+                            <div class="ml-16 md:ml-0 md:flex md:items-center even:md:flex-row-reverse group">
+                                <!-- Date Badge - Desktop -->
+                                <div class="hidden md:block md:w-1/2 px-8">
+                                    <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
+                                        2022 — Present
+                                    </div>
+                                </div>
+
+                                <!-- Experience Card -->
+                                <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
+                                    <!-- Company Logo & Info -->
+                                    <div class="flex items-center gap-4 mb-4">
+                                        <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
+                                            <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
+                                                AC
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold text-slate-900">ACME Corp</h3>
+                                            <p class="text-violet-600 font-medium">Senior Developer</p>
+                                            <!-- Date Badge - Mobile -->
+                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
+                                                2022 — Present
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Responsibilities -->
+                                    <div class="space-y-4">
+                                        <p class="text-slate-600">Led a small team to deliver SaaS features, improved CI/CD pipelines, and optimized backend performance for customer-facing services.</p>
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Focused on reliability and observability
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Developed scalable APIs
+                                            </li>
+                                        </ul>
+                                        <!-- Technologies -->
+                                        <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="experience-tag">Laravel</span>
+                                            <span class="experience-tag">Docker</span>
+                                            <span class="experience-tag">AWS</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Startup XYZ -->
+                        <div class="relative group">
+                            <!-- Timeline Dot -->
+                            <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
+                            
+                            <!-- Content Card -->
+                            <div class="ml-16 md:ml-0 md:flex md:items-center">
+                                <!-- Date Badge - Desktop -->
+                                <div class="hidden md:block md:w-1/2 px-8 text-right">
+                                    <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
+                                        2019 — 2021
+                                    </div>
+                                </div>
+
+                                <!-- Experience Card -->
+                                <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
+                                    <!-- Company Logo & Info -->
+                                    <div class="flex items-center gap-4 mb-4">
+                                        <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
+                                            <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
+                                                XY
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold text-slate-900">Startup XYZ</h3>
+                                            <p class="text-violet-600 font-medium">Junior Developer</p>
+                                            <!-- Date Badge - Mobile -->
+                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
+                                                2019 — 2021
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Responsibilities -->
+                                    <div class="space-y-4">
+                                        <p class="text-slate-600">Worked across the stack building features and writing tests, collaborating closely with product and design teams.</p>
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Improved developer workflows
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Implemented monitoring solutions
+                                            </li>
+                                        </ul>
+                                        <!-- Technologies -->
+                                        <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="experience-tag">PHP</span>
+                                            <span class="experience-tag">MySQL</span>
+                                            <span class="experience-tag">Git</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="w-full bg-gradient-to-b from-slate-50 to-white relative py-20">
+            <!-- Decorative Background -->
+            <div class="absolute inset-0">
+                <div class="absolute top-0 right-0 w-96 h-96 bg-violet-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+                <div class="absolute bottom-0 left-0 w-96 h-96 bg-violet-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+            </div>
+            
+            <!-- Content -->
+            <div class="relative max-w-7xl mx-auto px-6">
+                <div class="mb-12">
+                    <div class="space-y-2">
+                        <h2 class="text-3xl font-bold text-slate-900">Featured Projects</h2>
+                        <p class="text-slate-600">Exploring my latest works and technical achievements</p>
+                    </div>
+                </div>
+
+                <!-- Project Grid -->
+                <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                    <!-- Project Card 1: E-Commerce Dashboard -->
+                    <div class="group relative">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+                        <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                            <div class="relative w-full h-36">
+                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="E-Commerce Dashboard Project Image" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">E-Commerce Dashboard</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">A comprehensive e-commerce dashboard with real-time analytics.</p>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="tech-badge">React</span>
+                                    <span class="tech-badge">Node.js</span>
+                                </div>
+                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                    <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2: Task Management -->
+                    <div class="group relative">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+                        <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                            <div class="relative w-full h-36">
+                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Task Manager Project Image" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Task Manager</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">A collaborative task management app with real-time updates.</p>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="tech-badge">Laravel</span>
+                                    <span class="tech-badge">Vue.js</span>
+                                </div>
+                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                    <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3: Weather App -->
+                    <div class="group relative">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+                        <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                            <div class="relative w-full h-36">
+                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Weather App Project Image" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Weather App</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">A weather forecasting app with location-based services.</p>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">APIs</span>
+                                </div>
+                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                    <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 4: Portfolio Website -->
+                    <div class="group relative">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
+                        <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+                            <div class="relative w-full h-36">
+                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Portfolio Website Project Image" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Portfolio Website</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">A modern, responsive portfolio website showcasing projects and skills.</p>
+                                <div class="flex flex-wrap gap-2 mb-4">
+                                    <span class="tech-badge">Laravel</span>
+                                    <span class="tech-badge">Tailwind</span>
+                                </div>
+                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                    <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-violet-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+
+        </section>
+            <!-- Education -->
+            <section id="education" class="w-full bg-slate-50 border-t border-b border-slate-100 py-20">
+                <div class="max-w-4xl mx-auto px-6">
+                    <!-- Section Header -->
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold text-slate-900">Education</h2>
+                        <div class="w-24 h-1 mx-auto mt-2 bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
+                    </div>
+
+                    <!-- Education Card -->
+                    <div class="group relative">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                        <div class="relative bg-white p-8 rounded-xl shadow-lg flex items-center gap-8">
+                            <!-- Icon -->
+                            <div class="flex-shrink-0">
+                                <div class="w-16 h-16 rounded-full bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v6m-6-3.5v3.5m12-3.5v3.5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <!-- Details -->
+                            <div>
+                                <p class="text-sm text-violet-600 font-medium">2020 — 2024</p>
+                                <h3 class="text-xl font-bold text-slate-900 mt-1">Binus University</h3>
+                                <p class="text-slate-600 mt-2">B.Sc. in Information Technology with a focus on software engineering and modern web development practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer / Contact -->
+            <footer class="pt-6 border-t border-slate-100 text-center text-sm text-slate-500">
+                <p class="mb-3">Interested in working together? <a href="mailto:yohanes.wenanta@binus.ac.id" class="text-violet-500 hover:underline">Let's connect</a></p>
+                <p>© {{ date('M Y') }} Yohanes Wenanta</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
