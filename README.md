@@ -20,7 +20,8 @@ It includes several main sections such as:
 ## 🖼️ Live Preview
 
 
-[![Website Preview](./preview.gif)]
+![Desktop 2025 10 13 - 19 57 52 63](https://github.com/user-attachments/assets/692bab44-57d3-4617-b020-24784615892d)
+
 
 ---
 
@@ -33,7 +34,7 @@ It includes several main sections such as:
 | **Server** | PHP Artisan (Local), optional deployment on Vercel / Render / 000webhost |
 | **Version Control** | Git & GitHub |
 
----
+
 
 ## 🚀 Installation & Setup (Local)
 
