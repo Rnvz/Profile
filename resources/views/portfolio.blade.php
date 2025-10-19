@@ -79,12 +79,12 @@
                                 </div>
                                 <h3 class="text-lg font-semibold ml-4 text-slate-800">Frontend Development</h3>
                             </div>
-                            <p class="text-sm text-slate-600 mb-6 flex-grow">Crafting responsive and accessible user interfaces with modern web technologies.</p>
+                            <p class="text-sm text-slate-600 mb-6 flex-grow">Crafting responsive and accessible user interfaces with focus on usability.</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="skill-tag">HTML</span>
                                 <span class="skill-tag">CSS</span>
                                 <span class="skill-tag">Tailwind</span>
-                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Figma</span>
                             </div>
                         </div>
                     </div>
@@ -99,14 +99,14 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Backend Development</h3>
+                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Backend & Version Control Systems</h3>
                             </div>
-                            <p class="text-sm text-slate-600 mb-6 flex-grow">Building robust APIs and scalable server-side applications.</p>
+                            <p class="text-sm text-slate-600 mb-6 flex-grow">Managing structured data and collaborative workflows.</p>
                             <div class="flex flex-wrap gap-2">
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Git / Github</span>
+                                <span class="skill-tag">Javascript</span>
                                 <span class="skill-tag">Laravel</span>
-                                <span class="skill-tag">PHP</span>
-                                <span class="skill-tag">REST</span>
-                                <span class="skill-tag">Testing</span>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
             <div class="max-w-7xl mx-auto px-6 relative">
                 <!-- Section Header -->
                 <div class="max-w-3xl mx-auto text-center mb-16">
-                    <h2 class="text-3xl font-bold mb-4">Professional Experience</h2>
+                    <h2 class="text-3xl font-bold mb-4">Volunteer & Experience </h2>
                     <div class="w-24 h-1 mx-auto bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
                 </div>
 
@@ -169,11 +169,123 @@
                                     <div class="flex items-center gap-4 mb-4">
                                         <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
                                             <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
+                                                Cs
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold text-slate-900">Community Service</h3>
+                                            <p class="text-violet-600 font-medium">Instructor & Material Designer</p>
+                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
+                                                2022 — Present
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="space-y-4">
+                                        <p class="text-slate-600">Conducted a hands-on training session on PowerPoint basics for elementary school students. Designed simple 
+                                                                    interactive materials and guided students in creating their own slides. This experience honed my adaptability, 
+                                                                    creativity, and communication skills when teaching young learners.</p>
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Created visual learning materials tailored for children.
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Led the session, explaining step-by-step PowerPoint use.
+                                            </li>
+                                        </ul>
+                            
+                                        <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="experience-tag">Teaching</span>
+                                            <span class="experience-tag">Communication</span>
+                                            <span class="experience-tag">Creativity</span>
+                                            <span class="experience-tag">Team Collaboration</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
+                            
+
+                            <div class="ml-16 md:ml-0 md:flex md:items-center">
+                                <div class="hidden md:block md:w-1/2 px-8 text-right">
+                                    <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
+                                        2019 — 2021
+                                    </div>
+                                </div>
+
+                             
+                                <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
+                                    <div class="flex items-center gap-4 mb-4">
+                                        <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
+                                            <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
+                                                XY
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold text-slate-900">Volunteer Campaign: Climate Action</h3>
+                                            <p class="text-violet-600 font-medium">Campaign Organizer & Presenterr</p>
+                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
+                                                2019 — 2021
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="space-y-4">
+                                        <p class="text-slate-600">Organized and led a campaign to promote awareness about Climate Action (SDG 13) among high school students through presentations and interactive media.</p>
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Created digital campaign materials about environmental awareness.
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Engaged students in interactive learning activities.
+                                            </li>
+                                        </ul>
+
+                                        <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="experience-tag">Public Speaking</span>
+                                            <span class="experience-tag">Teamwork</span>
+                                            <span class="experience-tag">Visual Design</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
+                            
+                            <div class="ml-16 md:ml-0 md:flex md:items-center even:md:flex-row-reverse group">
+                                <div class="hidden md:block md:w-1/2 px-8">
+                                    <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
+                                        2022 — Present
+                                    </div>
+                                </div>
+
+                                <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
+                                    <div class="flex items-center gap-4 mb-4">
+                                        <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
+                                            <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
                                                 AC
                                             </div>
                                         </div>
                                         <div>
-                                            <h3 class="text-xl font-bold text-slate-900">ACME Corp</h3>
+                                            <h3 class="text-xl font-bold text-slate-900">Volunteer: Religious Harmony Education</h3>
                                             <p class="text-violet-600 font-medium">Senior Developer</p>
                                             <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
                                                 2022 — Present
@@ -208,7 +320,7 @@
                             </div>
                         </div>
 
-                        <div class="relative group">
+                    <div class="relative group">
                             <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
                             
 
@@ -263,6 +375,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -280,9 +393,10 @@
             
             <div class="relative max-w-7xl mx-auto px-6">
                 <div class="mb-12">
-                    <div class="space-y-2">
+                    <div class="space-y-2 text-center">
                         <h2 class="text-3xl font-bold text-slate-900">Featured Projects</h2>
                         <p class="text-slate-600">Exploring my latest works and technical achievements</p>
+                        <div class="w-24 h-1 mx-auto bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
                     </div>
                 </div>
 
