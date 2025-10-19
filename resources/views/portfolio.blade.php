@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yohanes Wenanta — Portfolio</title>
+    <title>Ywenant</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="min-h-screen bg-white text-slate-900 font-sans">
@@ -22,12 +22,12 @@
             </header>
         <!-- HERO (full-width band) -->
         <section id="about" class="w-full section-gradient-light relative">
-            <div class="max-w-[1400px] mx-auto px-6 py-16 md:py-24">
+            <div class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
                 <div class="flex flex-col md:flex-row items-center gap-8">
                     <div class="flex-shrink-0 relative">
                         <div class="w-36 h-36 rounded-full p-1 violet-shadow-strong" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">
                             <div class="w-full h-full rounded-full bg-white overflow-hidden flex items-center justify-center border-violet-glow">
-                                <img src="/images/profile.jpg" alt="Yohanes Wenanta" class="w-full h-full object-cover" onerror="this.style.display='none'">
+                                <img src="" class="w-full h-full object-cover" onerror="this.style.display='none'">
                                 <span class="text-2xl font-semibold text-violet-600">Y</span>
                             </div>
                         </div>
@@ -39,12 +39,13 @@
                     <div class="flex-1 text-center md:text-left">
                         <div class="inline-block">
                             <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-500">
-                                Hi, I'm Yohanes — Software Developer
+                                Hi, I'm Yohanes Wenanta
                             </h1>
                         </div>
-                        <p class="text-slate-600 mb-6 max-w-2xl">Information Technology student focused on building clean, accessible, and maintainable web applications. I enjoy solving problems using modern web technologies and collaborating in cross-functional teams.</p>
-                        <div class="flex items-center justify-center md:justify-start gap-3 glass-violet p-4 rounded-xl">
-                            <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg accent-violet hover:opacity-95 text-white text-sm font-medium shadow-lg transition-opacity">Let's Connect</a>
+                        <p class="text-slate-600 mb-6 max-w-4xl">An Information Technology student at Bina Nusantara University passionate about building innovative web applications and applying technology to solve real-world problems.  
+                                                                    I have a solid foundation in programming, UI/UX design, and data-driven systems, with experience from academic and volunteer projects that strengthened my teamwork and adaptability.</p>
+                        <div class="flex items-center justify-center md:justify-start gap-4 glass-violet p-4 rounded-xl">
+                            <a href="https://www.linkedin.com/in/yohanes-wenanta-2965a01ba/" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg accent-violet hover:opacity-95 text-white text-sm font-medium shadow-lg transition-opacity">Let's Connect</a>
                             <a href="#projects" class="text-sm text-slate-500 dark:text-slate-400 hover:underline">See Projects</a>
                         </div>
                     </div>
@@ -372,7 +373,7 @@
                 </div>
             </div>
 
-        <div class="absolute bottom-0 left-0 w-96 h-96 bg-violet-200 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+        
 
         </section>
             <section id="education" class="w-full bg-slate-50 border-t border-b border-slate-100 py-20">
@@ -397,18 +398,41 @@
                             </div>
                        
                             <div>
-                                <p class="text-sm text-violet-600 font-medium">2020 — 2024</p>
+                                <p class="text-sm text-violet-600 font-medium">2023 — Present</p>
                                 <h3 class="text-xl font-bold text-slate-900 mt-1">Binus University</h3>
-                                <p class="text-slate-600 mt-2">B.Sc. in Information Technology with a focus on software engineering and modern web development practices.</p>
+                                <p class="text-slate-600 mt-2">B.Sc. in Information Technology — focusing on software engineering, data systems, and modern web development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="group relative">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                        <div class="relative bg-white p-8 rounded-xl shadow-lg flex items-center gap-8">
+
+                            <div class="flex-shrink-0">
+                                <div class="w-16 h-16 rounded-full bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14v6m-6-3.5v3.5m12-3.5v3.5"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                       
+                            <div>
+                                <p class="text-sm text-violet-600 font-medium">2020 — 2023</p>
+                                <h3 class="text-xl font-bold text-slate-900 mt-1">Tarsisius 2 Highschool</h3>
+                                <p class="text-slate-600 mt-2">Natural Science major with strong analytical and problem-solving foundations.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
 
             <footer class="pt-6 border-t border-slate-100 text-center text-sm text-slate-500">
-                <p class="mb-3">Interested in working together? <a href="mailto:yohanes.wenanta@binus.ac.id" class="text-violet-500 hover:underline">Let's connect</a></p>
-                <p>© {{ date('M Y') }} Yohanes Wenanta</p>
+                <p class="mb-2">Interested in working together? <a href="mailto:yohanes.wenanta@binus.ac.id" class="text-violet-500 hover:underline">Let's connect</a></p>
+                <p class="pb-2">© {{ date('M Y') }} Yohanes Wenanta</p>
             </footer>
         </div>
     </div>
