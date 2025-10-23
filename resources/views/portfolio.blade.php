@@ -68,13 +68,14 @@
 
                 <!-- Skills Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="group relative flex">
+                    
+                     <div class="group relative flex">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
                         <div class="relative p-8 rounded-xl bg-white shadow-lg card-hover-effect backdrop-blur-sm flex flex-col h-full">
                             <div class="flex items-center mb-4">
                                 <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center text-white shadow-lg flex-shrink-0">
                                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
                                     </svg>
                                 </div>
                                 <h3 class="text-lg font-semibold ml-4 text-slate-800">Frontend Development</h3>
@@ -106,7 +107,7 @@
                                 <span class="skill-tag">MySQL</span>
                                 <span class="skill-tag">Git / Github</span>
                                 <span class="skill-tag">Javascript</span>
-                                <span class="skill-tag">Laravel</span>
+                                <span class="skill-tag">Google Colab</span>
                             </div>
                         </div>
                     </div>
@@ -121,14 +122,16 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Database & Tools</h3>
+                                <h3 class="text-lg font-semibold ml-4 text-slate-800">Data Science</h3>
                             </div>
-                            <p class="text-sm text-slate-600 mb-6 flex-grow">Managing data and streamlining development workflows.</p>
+                            <p class="text-sm text-slate-600 mb-6 flex-grow">Analyzing complex datasets, clustering health-related data, and building data-driven insights</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="skill-tag">MySQL/SQLite</span>
-                                <span class="skill-tag">Git</span>
-                                <span class="skill-tag">Docker</span>
-                                <span class="skill-tag">Vite</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">Scikitlearn</span>
+                                <span class="skill-tag">Numpy</span>
+                                <span class="skill-tag">Matplotlib</span>
+                                <span class="skill-tag">Seaborn</span>
                             </div>
                         </div>
                     </div>
@@ -161,7 +164,7 @@
                             <div class="ml-16 md:ml-0 md:flex md:items-center even:md:flex-row-reverse group">
                                 <div class="hidden md:block md:w-1/2 px-8">
                                     <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
-                                        2022 — Present
+                                        2025
                                     </div>
                                 </div>
 
@@ -169,15 +172,12 @@
                                     <div class="flex items-center gap-4 mb-4">
                                         <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
                                             <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
-                                                Cs
+                                                Vo
                                             </div>
                                         </div>
                                         <div>
                                             <h3 class="text-xl font-bold text-slate-900">Community Service</h3>
                                             <p class="text-violet-600 font-medium">Instructor & Material Designer</p>
-                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
-                                                2022 — Present
-                                            </div>
                                         </div>
                                     </div>
 
@@ -218,7 +218,7 @@
                             <div class="ml-16 md:ml-0 md:flex md:items-center">
                                 <div class="hidden md:block md:w-1/2 px-8 text-right">
                                     <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
-                                        2019 — 2021
+                                        2024
                                     </div>
                                 </div>
 
@@ -227,18 +227,67 @@
                                     <div class="flex items-center gap-4 mb-4">
                                         <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
                                             <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
-                                                XY
+                                                Vo
                                             </div>
                                         </div>
                                         <div>
-                                            <h3 class="text-xl font-bold text-slate-900">Volunteer Campaign: Climate Action</h3>
+                                            <h3 class="text-xl font-bold text-slate-900">Volunteer: Religious Harmony Education</h3>
                                             <p class="text-violet-600 font-medium">Campaign Organizer & Presenterr</p>
-                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
-                                                2019 — 2021
-                                            </div>
                                         </div>
                                     </div>
 
+
+                                    <div class="space-y-4">
+                                        <p class="text-slate-600">Collaborated with peers to raise awareness about religious tolerance and the impact of social media on interfaith relationships.</p>
+                                        <ul class="space-y-2">
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Created educational content to reduce online religious conflicts.
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                               Promoted inclusive values through storytelling and social media.
+                                            </li>
+                                        </ul>
+
+                                        <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="experience-tag">Communication</span>
+                                            <span class="experience-tag">Teamwork</span>
+                                            <span class="experience-tag">Social Awareness</span>
+                                            <span class="experience-tag">Visual Design</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
+                            
+                            <div class="ml-16 md:ml-0 md:flex md:items-center even:md:flex-row-reverse group">
+                                <div class="hidden md:block md:w-1/2 px-8">
+                                    <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
+                                        2023
+                                    </div>
+                                </div>
+
+                                <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
+                                    <div class="flex items-center gap-4 mb-4">
+                                        <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
+                                            <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
+                                                Vo
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3 class="text-xl font-bold text-slate-900">Volunteer Campaign: SDG 13 Climate Action</h3>
+                                            <p class="text-violet-600 font-medium">Campaign Organizer & Presenter
+</p>
+                                        </div>
+                                    </div>
 
                                     <div class="space-y-4">
                                         <p class="text-slate-600">Organized and led a campaign to promote awareness about Climate Action (SDG 13) among high school students through presentations and interactive media.</p>
@@ -253,67 +302,15 @@
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Engaged students in interactive learning activities.
+                                               Engaged students in interactive learning activities.
                                             </li>
                                         </ul>
-
+                            
                                         <div class="flex flex-wrap gap-2 mt-4">
+                                            <span class="experience-tag">Communication</span>
                                             <span class="experience-tag">Public Speaking</span>
-                                            <span class="experience-tag">Teamwork</span>
                                             <span class="experience-tag">Visual Design</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="relative group">
-                            <div class="absolute left-8 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 border-violet-500 bg-white shadow-md"></div>
-                            
-                            <div class="ml-16 md:ml-0 md:flex md:items-center even:md:flex-row-reverse group">
-                                <div class="hidden md:block md:w-1/2 px-8">
-                                    <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
-                                        2022 — Present
-                                    </div>
-                                </div>
-
-                                <div class="md:w-1/2 p-6 bg-white rounded-2xl shadow-lg transition-all duration-300 hover:shadow-2xl">
-                                    <div class="flex items-center gap-4 mb-4">
-                                        <div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-violet-400 p-0.5">
-                                            <div class="w-full h-full rounded-2xl bg-white flex items-center justify-center font-bold text-2xl text-violet-600">
-                                                AC
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <h3 class="text-xl font-bold text-slate-900">Volunteer: Religious Harmony Education</h3>
-                                            <p class="text-violet-600 font-medium">Senior Developer</p>
-                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
-                                                2022 — Present
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="space-y-4">
-                                        <p class="text-slate-600">Led a small team to deliver SaaS features, improved CI/CD pipelines, and optimized backend performance for customer-facing services.</p>
-                                        <ul class="space-y-2">
-                                            <li class="flex items-center gap-2 text-sm text-slate-600">
-                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                </svg>
-                                                Focused on reliability and observability
-                                            </li>
-                                            <li class="flex items-center gap-2 text-sm text-slate-600">
-                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                                </svg>
-                                                Developed scalable APIs
-                                            </li>
-                                        </ul>
-                            
-                                        <div class="flex flex-wrap gap-2 mt-4">
-                                            <span class="experience-tag">Laravel</span>
-                                            <span class="experience-tag">Docker</span>
-                                            <span class="experience-tag">AWS</span>
+                                            <span class="experience-tag">Environmental Awareness</span>
                                         </div>
                                     </div>
                                 </div>
@@ -327,7 +324,7 @@
                             <div class="ml-16 md:ml-0 md:flex md:items-center">
                                 <div class="hidden md:block md:w-1/2 px-8 text-right">
                                     <div class="inline-flex items-center py-2 px-4 bg-violet-50 text-violet-700 rounded-full font-medium text-sm">
-                                        2019 — 2021
+                                        2023 - present
                                     </div>
                                 </div>
 
@@ -340,36 +337,49 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <h3 class="text-xl font-bold text-slate-900">Startup XYZ</h3>
-                                            <p class="text-violet-600 font-medium">Junior Developer</p>
-                                            <div class="md:hidden mt-2 inline-flex items-center py-1 px-3 bg-violet-50 text-violet-700 rounded-full text-sm">
-                                                2019 — 2021
-                                            </div>
+                                            <h3 class="text-xl font-bold text-slate-900">University Projects</h3>
+                                            <p class="text-violet-600 font-medium">Developer & Designer</p>
                                         </div>
                                     </div>
 
 
                                     <div class="space-y-4">
-                                        <p class="text-slate-600">Worked across the stack building features and writing tests, collaborating closely with product and design teams.</p>
+                                        <p class="text-slate-600">Worked on several academic projects focusing on software development, web design, and artificial intelligence applications.</p>
                                         <ul class="space-y-2">
                                             <li class="flex items-center gap-2 text-sm text-slate-600">
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Improved developer workflows
+                                                Supreme Court Judgement Classification - NLP model for court document classification.
                                             </li>
                                             <li class="flex items-center gap-2 text-sm text-slate-600">
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Implemented monitoring solutions
+                                                Serenity - Web app for Mental helath consultation.
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Tuberculosis Case Clustering in Jakarta
+                                            </li>
+                                            <li class="flex items-center gap-2 text-sm text-slate-600">
+                                                <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                                </svg>
+                                                Tuberculosis Case Clustering in Jakarta
                                             </li>
                                         </ul>
 
                                         <div class="flex flex-wrap gap-2 mt-4">
-                                            <span class="experience-tag">PHP</span>
                                             <span class="experience-tag">MySQL</span>
-                                            <span class="experience-tag">Git</span>
+                                            <span class="experience-tag">Git/Github</span>
+                                            <span class="experience-tag">HTML/CSS/JS</span>
+                                            <span class="experience-tag">REACT.ts</span>
+                                            <span class="experience-tag">TailwindCss</span>
+                                            <span class="experience-tag">UI/UX - Figma</span>
+                                            <span class="experience-tag">Python</span>
                                         </div>
                                     </div>
                                 </div>
@@ -395,7 +405,6 @@
                 <div class="mb-12">
                     <div class="space-y-2 text-center">
                         <h2 class="text-3xl font-bold text-slate-900">Featured Projects</h2>
-                        <p class="text-slate-600">Exploring my latest works and technical achievements</p>
                         <div class="w-24 h-1 mx-auto bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
                     </div>
                 </div>
@@ -409,13 +418,15 @@
                                 <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="E-Commerce Dashboard Project Image" class="w-full h-full object-cover">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
-                                <h3 class="text-lg font-bold text-slate-900 mb-1">E-Commerce Dashboard</h3>
-                                <p class="text-sm text-slate-600 mb-3 flex-grow">A comprehensive e-commerce dashboard with real-time analytics.</p>
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Serenity</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">An affordable online platform for mental health consultation via chat or video call, featuring personalized psychologist matching and community forums.</p>
                                 <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="tech-badge">React</span>
-                                    <span class="tech-badge">Node.js</span>
+                                    <span class="tech-badge">TypeScript</span>
+                                    <span class="tech-badge">React TS</span>
+                                    <span class="tech-badge">TailwindCss</span>
+                                    <span class="tech-badge">Firebase</span>
                                 </div>
-                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                <a href="https://github.com/dheovanwa/Serenity" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
                                     <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                                 </a>
                             </div>
@@ -430,13 +441,14 @@
                                 <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Task Manager Project Image" class="w-full h-full object-cover">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
-                                <h3 class="text-lg font-bold text-slate-900 mb-1">Task Manager</h3>
-                                <p class="text-sm text-slate-600 mb-3 flex-grow">A collaborative task management app with real-time updates.</p>
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Supreme Court Judgement Classification</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">Machine Learning model for classifying U.S Goverment court judgements automatically.</p>
                                 <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="tech-badge">Laravel</span>
-                                    <span class="tech-badge">Vue.js</span>
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Machine Learning</span>
+                                    <span class="tech-badge">streamlit</span>
                                 </div>
-                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                <a href="https://github.com/dheovanwa/Supreme-court-judgement-classification" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
                                     <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                                 </a>
                             </div>
@@ -451,13 +463,14 @@
                                 <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Weather App Project Image" class="w-full h-full object-cover">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
-                                <h3 class="text-lg font-bold text-slate-900 mb-1">Weather App</h3>
-                                <p class="text-sm text-slate-600 mb-3 flex-grow">A weather forecasting app with location-based services.</p>
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Tuberculosis Case Clustering in Jakarta</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">A data mining project applying Agglomerative Clustering to map tuberculosis case patterns across Jakarta.</p>
                                 <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="tech-badge">JavaScript</span>
-                                    <span class="tech-badge">APIs</span>
+                                    <span class="tech-badge">Python</span>
+                                    <span class="tech-badge">Data Mining</span>
+                                    <span class="tech-badge">Clustering</span>
                                 </div>
-                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                <a href="https://github.com/Rnvz/TBC_Clustering_DataMining" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
                                     <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                                 </a>
                             </div>
@@ -472,13 +485,15 @@
                                 <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Portfolio Website Project Image" class="w-full h-full object-cover">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
-                                <h3 class="text-lg font-bold text-slate-900 mb-1">Portfolio Website</h3>
-                                <p class="text-sm text-slate-600 mb-3 flex-grow">A modern, responsive portfolio website showcasing projects and skills.</p>
+                                <h3 class="text-lg font-bold text-slate-900 mb-1">Peluang Nusantara</h3>
+                                <p class="text-sm text-slate-600 mb-3 flex-grow">A UI/UX design prototype for a digital archiving system helping SMEs store and organize business documents efficiently.</p>
                                 <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="tech-badge">Laravel</span>
-                                    <span class="tech-badge">Tailwind</span>
+                                    <span class="tech-badge">HTML</span>
+                                    <span class="tech-badge">CSS</span>
+                                    <span class="tech-badge">Javascript</span>
+                                    <span class="tech-badge">Figma</span>
                                 </div>
-                                <a href="#" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
+                                <a href="https://github.com/Dexcop/Archive-HCI" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
                                     <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                                 </a>
                             </div>
