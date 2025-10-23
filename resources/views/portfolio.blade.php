@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ywenant</title>
+    <title>Ywenant's Portfolio</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="min-h-screen bg-white text-slate-900 font-sans">
@@ -18,6 +18,7 @@
                     <a href="#skills" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Skills</a>
                     <a href="#experience" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Experience</a>
                     <a href="#education" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Education</a>
+                    <a href="#contact" class="hover:text-violet-400 px-3 py-2 rounded-lg transition-colors hover:bg-violet-50">Contact</a>
                 </nav>
             </header>
         <!-- HERO (full-width band) -->
@@ -25,18 +26,16 @@
             <div class="max-w-[1200px] mx-auto px-6 py-16 md:py-24">
                 <div class="flex flex-col md:flex-row items-center gap-8">
                     <div class="flex-shrink-0 relative">
-                        <div class="w-36 h-36 rounded-full p-1 violet-shadow-strong" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">
+                        <div class="w-64 h-64 rounded-full p-1 violet-shadow-strong" style="background: linear-gradient(135deg,var(--violet-400),var(--violet-600));">
                             <div class="w-full h-full rounded-full bg-white overflow-hidden flex items-center justify-center border-violet-glow">
-                                <img src="" class="w-full h-full object-cover" onerror="this.style.display='none'">
-                                <span class="text-2xl font-semibold text-violet-600">Y</span>
+                                <img src="{{asset('assets/bgavatar.png')}}" class="w-full h-full object-cover" onerror="this.style.display='none'">
                             </div>
                         </div>
                         <div class="absolute -z-10 w-full h-full top-0 left-0 transform -translate-x-1/4 -translate-y-1/4">
                             <div class="w-full h-full rounded-full opacity-20" style="background: radial-gradient(circle at center, rgba(139, 92, 246, 0.3), transparent 70%);"></div>
                         </div>
                     </div>
-
-                    <div class="flex-1 text-center md:text-left">
+                   <div class="flex-1 text-center md:text-left">
                         <div class="inline-block">
                             <h1 class="text-3xl md:text-4xl font-extrabold leading-tight mb-2 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-500">
                                 Hi, I'm Yohanes Wenanta
@@ -62,7 +61,7 @@
             
             <div class="max-w-[1400px] mx-auto px-6 py-20 relative">
                 <div class="text-center mb-16">
-                    <h2 class="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-violet-600 to-violet-400 bg-clip-text text-transparent">Skills & Expertise</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r ">Skills & Expertise</h2>
                     <div class="w-20 h-1 mx-auto rounded-full bg-gradient-to-r from-violet-500 to-violet-300"></div>
                 </div>
 
@@ -84,7 +83,8 @@
                             <div class="flex flex-wrap gap-2">
                                 <span class="skill-tag">HTML</span>
                                 <span class="skill-tag">CSS</span>
-                                <span class="skill-tag">Tailwind</span>
+                                <span class="skill-tag">TailwindCss</span>
+                                <span class="skill-tag">Streamlit</span>
                                 <span class="skill-tag">Figma</span>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                             <div class="flex flex-wrap gap-2">
                                 <span class="skill-tag">Python</span>
                                 <span class="skill-tag">Pandas</span>
-                                <span class="skill-tag">Scikitlearn</span>
+                                <span class="skill-tag">Scikit-learn</span>
                                 <span class="skill-tag">Numpy</span>
                                 <span class="skill-tag">Matplotlib</span>
                                 <span class="skill-tag">Seaborn</span>
@@ -176,7 +176,7 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <h3 class="text-xl font-bold text-slate-900">Community Service</h3>
+                                            <h3 class="text-xl font-bold text-slate-900">Community : Instructor</h3>
                                             <p class="text-violet-600 font-medium">Instructor & Material Designer</p>
                                         </div>
                                     </div>
@@ -284,8 +284,7 @@
                                         </div>
                                         <div>
                                             <h3 class="text-xl font-bold text-slate-900">Volunteer Campaign: SDG 13 Climate Action</h3>
-                                            <p class="text-violet-600 font-medium">Campaign Organizer & Presenter
-</p>
+                                            <p class="text-violet-600 font-medium">Campaign Organizer & Presenter</p>
                                         </div>
                                     </div>
 
@@ -350,25 +349,25 @@
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Supreme Court Judgement Classification - NLP model for court document classification.
+                                                Supreme Court Judgement Classification - NLP model for court document classification. - Machine Learning
                                             </li>
                                             <li class="flex items-center gap-2 text-sm text-slate-600">
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Serenity - Web app for Mental helath consultation.
+                                                Serenity - Web app for Mental helath consultation. - Software Engineering
                                             </li>
                                             <li class="flex items-center gap-2 text-sm text-slate-600">
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Tuberculosis Case Clustering in Jakarta
+                                                Tuberculosis Case Clustering in Jakarta - Data Mining
                                             </li>
                                             <li class="flex items-center gap-2 text-sm text-slate-600">
                                                 <svg class="w-4 h-4 text-violet-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                                                 </svg>
-                                                Tuberculosis Case Clustering in Jakarta
+                                                Peluang Nusantara - UI/UX design
                                             </li>
                                         </ul>
 
@@ -415,7 +414,7 @@
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
                             <div class="relative w-full h-36">
-                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="E-Commerce Dashboard Project Image" class="w-full h-full object-cover">
+                                <img src="{{asset('assets/Serenity.png')}}" alt="Serenity Logo" class="w-full h-full object-contain mx:auto">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
                                 <h3 class="text-lg font-bold text-slate-900 mb-1">Serenity</h3>
@@ -437,8 +436,8 @@
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                            <div class="relative w-full h-36">
-                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Task Manager Project Image" class="w-full h-full object-cover">
+                            <div class="relative">
+                                <img src="{{asset('assets/Supreme-court-judgement-classification.png')}}" alt="supreme court" class="w-full h-full object-fill mx:auto">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
                                 <h3 class="text-lg font-bold text-slate-900 mb-1">Supreme Court Judgement Classification</h3>
@@ -446,7 +445,7 @@
                                 <div class="flex flex-wrap gap-2 mb-4">
                                     <span class="tech-badge">Python</span>
                                     <span class="tech-badge">Machine Learning</span>
-                                    <span class="tech-badge">streamlit</span>
+                                    <span class="tech-badge">Streamlit</span>
                                 </div>
                                 <a href="https://github.com/dheovanwa/Supreme-court-judgement-classification" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
                                     <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
@@ -459,8 +458,8 @@
                     <div class="group relative">
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                            <div class="relative w-full h-36">
-                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Weather App Project Image" class="w-full h-full object-cover">
+                            <div class="relative w-iull">
+                                <img src="{{asset('assets/TBC_Clustering_DataMining.png')}}" alt="Data mining" class="w-full h-full object-cover">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
                                 <h3 class="text-lg font-bold text-slate-900 mb-1">Tuberculosis Case Clustering in Jakarta</h3>
@@ -482,7 +481,7 @@
                         <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-violet-400 rounded-2xl blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
                         <div class="relative flex flex-col h-full bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
                             <div class="relative w-full h-36">
-                                <img src="https://placehold.co/600x400/a78bfa/ffffff?text=a" alt="Portfolio Website Project Image" class="w-full h-full object-cover">
+                                <img src="{{asset('assets/Archive-HCI.png')}}" alt="Portfolio Website Project Image" class="w-full h-full object-cover">
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
                                 <h3 class="text-lg font-bold text-slate-900 mb-1">Peluang Nusantara</h3>
@@ -490,7 +489,7 @@
                                 <div class="flex flex-wrap gap-2 mb-4">
                                     <span class="tech-badge">HTML</span>
                                     <span class="tech-badge">CSS</span>
-                                    <span class="tech-badge">Javascript</span>
+                                    <span class="tech-badge">Js</span>
                                     <span class="tech-badge">Figma</span>
                                 </div>
                                 <a href="https://github.com/Dexcop/Archive-HCI" target="_blank" class="mt-auto self-start p-2 rounded-full hover:bg-violet-100 transition-colors" title="View on GitHub">
@@ -557,10 +556,100 @@
                     </div>
                 </div>
             </section>
-            
 
-            <footer class="pt-6 border-t border-slate-100 text-center text-sm text-slate-500">
-                <p class="mb-2">Interested in working together? <a href="mailto:yohanes.wenanta@binus.ac.id" class="text-violet-500 hover:underline">Let's connect</a></p>
+            <section id="contact" class="w-full bg-white py-20">
+                <div class="max-w-4xl mx-auto px-6">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold text-slate-900">Contact Me</h2>
+                        <div class="w-24 h-1 mx-auto mt-2 bg-gradient-to-r from-violet-500 to-violet-300 rounded-full"></div>
+                        <p class="mt-4 text-slate-600">Let's connect and discuss how we can work together!</p>
+                    </div>
+
+                    <!-- Grid Layout -->
+                    <div class="grid gap-8 md:grid-cols-2">
+                        <div class="group relative">
+                            <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                            <div class="relative bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-6 h-6 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-semibold text-slate-900">Email</h3>
+                                        <a href="mailto:yohanes.wenanta@binus.ac.id"
+                                            class="text-violet-600 hover:underline">Send Email</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="group relative">
+                            <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                            <div class="relative bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-6 h-6 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-semibold text-slate-900">Phone Number</h3>
+                                        <a class="text-violet-600" >081289992896</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="group relative">
+                            <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                            <div class="relative bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 text-slate-500 group-hover:text-violet-600" fill="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-semibold text-slate-900">GitHub</h3>
+                                        <a href="https://github.com/Rnvz" class="text-violet-600 hover:underline"
+                                            target="_blank">View GitHub Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="group relative">
+                            <div class="absolute -inset-0.5 bg-gradient-to-r from-violet-500 to-violet-300 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                            <div class="relative bg-white p-6 rounded-lg shadow-lg">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-6 h-6 text-violet-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-lg font-semibold text-slate-900">LinkedIn</h3>
+                                        <a href="https://www.linkedin.com/in/yohanes-wenanta-2965a01ba/"
+                                            class="text-violet-600 hover:underline" target="_blank">Connect on LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="pt-2 border-t border-slate-100 text-center text-sm text-slate-500">
                 <p class="pb-2">© {{ date('M Y') }} Yohanes Wenanta</p>
             </footer>
         </div>
