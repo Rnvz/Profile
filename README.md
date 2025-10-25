@@ -145,4 +145,3 @@ php artisan key:generate
 # 6. Run development server
 php artisan serve
 
-⭐ *“Technology is not just about code — it’s about creating impact through innovation and empathy.”*
